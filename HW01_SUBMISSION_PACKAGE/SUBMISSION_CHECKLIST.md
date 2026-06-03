@@ -19,7 +19,8 @@
 - [ ] Open each YouTube video and confirm it is <= 60 seconds and contains your own voice narration.
 - [x] Upload videos as YouTube Unlisted and paste links into the report and Excel workbook.
 - [x] Create GitHub repository link and paste it into `HW01_Main_Report.md`.
-- [ ] Create GitHub Issues for defects found during physical-device testing.
+- [x] Create GitHub defect-log status issue.
+- [ ] Create separate GitHub Issues for confirmed defects found during physical-device testing, if any.
 - [ ] Add screenshot of GitHub Issues page showing your GitHub username.
 - [x] Add real AI output screenshots in evidence/ai_screenshots/: A1_requirement1_jobs_ai_output.png, A2_requirement2_defects_ai_output.png, A3_mouse_test_cases_ai_output.png, A4_mindmap_ai_output.png, A5_submission_checklist_ai_output.png.
 - [ ] Review each AI output screenshot to ensure it shows the original prompt and enough/full AI response for audit.

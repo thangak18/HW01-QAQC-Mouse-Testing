@@ -3,6 +3,7 @@
 ## Trạng thái hiện tại
 
 - GitHub repo link thật: `https://github.com/thangak18/HW01-QAQC-Mouse-Testing`
+- GitHub issue trạng thái defect log: `https://github.com/thangak18/HW01-QAQC-Mouse-Testing/issues/1`
 - Screenshot trang Issues có GitHub username: cần lưu vào `evidence/github_issues/`
 - Ghi chú: `gh` trên máy hiện chưa đăng nhập hợp lệ, nên cần tạo repo/issues trực tiếp trên GitHub bằng tài khoản của sinh viên hoặc đăng nhập lại GitHub CLI.
 
@@ -14,9 +15,10 @@
 
 1. Repo đã được chuẩn bị với tên `HW01-QAQC-Mouse-Testing`.
 2. Upload/push toàn bộ thư mục `HW01_SUBMISSION_PACKAGE` lên repo.
-3. Vào tab `Issues` của repo và tạo issue cho các defect thật tìm được khi test.
-4. Chụp screenshot trang Issues có thấy GitHub username, lưu vào `evidence/github_issues/`.
-5. Cập nhật link từng issue vào bảng `3.5 Liên kết defect tiềm năng với GitHub Issue` trong `HW01_Main_Report.md`.
+3. Issue trạng thái defect log đã được tạo tại `issues/1`.
+4. Vào tab `Issues` của repo và tạo issue riêng cho các defect thật tìm được khi test.
+5. Chụp screenshot trang Issues có thấy GitHub username, lưu vào `evidence/github_issues/`.
+6. Cập nhật link từng issue vào bảng `3.5 Liên kết defect tiềm năng với GitHub Issue` trong `HW01_Main_Report.md`.
 
 ## Issue templates nếu phát hiện defect
 
