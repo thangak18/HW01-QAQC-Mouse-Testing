@@ -1373,10 +1373,10 @@ Bằng chứng video:
 Kịch bản thuyết minh video TC03:
 
 - Đây là TC03 - Left click.
-- Expected result là hệ thống phản hồi đúng khi em click trái vào folder này.
+- Kết quả mong đợi là hệ thống phản hồi đúng khi em click trái vào folder này.
 - Em sẽ click trái vào folder.
-- Actual result là folder đã được chọn/mở đúng cách.
-- Verdict: Pass.
+- Kết quả thực tế là folder đã được chọn/mở đúng cách.
+- Kết luận: Pass.
 
 #### TC04 - Click phải
 
@@ -1793,15 +1793,17 @@ File TXT chứa 5 link video: `Requirement3_Mouse_Video_Links.txt`.
 
 ### 3.5 Liên kết defect tiềm năng với GitHub Issue
 
+Trạng thái hiện tại: 5 test case đã quay video chưa phát hiện defect thật. Bảng dưới dùng để liên kết defect tiềm năng với GitHub Issue nếu lỗi xuất hiện trong quá trình test lại hoặc test mở rộng. Issue trạng thái/tổng hợp defect log nằm tại [GitHub Issue #1](https://github.com/thangak18/HW01-QAQC-Mouse-Testing/issues/1).
+
 | Defect ID | TC liên quan | Mô tả defect mẫu | Severity | Evidence | GitHub Issue Link |
 | --- | --- | --- | --- | --- | --- |
-| D01 | TC02 | Con trỏ bị trễ hoặc nhảy bất thường khi di chuyển bình thường. | Medium | Video / quan sát | [Dán link GitHub Issue nếu phát hiện] |
-| D02 | TC05 | Bánh xe cuộn bị nhảy dòng hoặc cuộn sai hướng. | Medium | Video / quan sát | [Dán link GitHub Issue nếu phát hiện] |
-| D03 | TC07 | Drag and drop thất bại vì chuột tự nhả item trước khi thả nút. | High | Video / quan sát | [Dán link GitHub Issue nếu phát hiện] |
-| D04 | TC09 | Con trỏ không ổn định trên bề mặt phổ biến như giấy hoặc gỗ. | Low/Medium | Video / quan sát | [Dán link GitHub Issue nếu phát hiện] |
-| D05 | TC11 | Chuột không được nhận lại sau khi rút/cắm lại dây USB hoặc receiver. | High | Video / quan sát | [Dán link GitHub Issue nếu phát hiện] |
+| D01 | TC02 | Con trỏ bị trễ hoặc nhảy bất thường khi di chuyển bình thường. | Medium | Quan sát | [Issue #1 - Defect log](https://github.com/thangak18/HW01-QAQC-Mouse-Testing/issues/1) |
+| D02 | TC05 | Bánh xe cuộn bị nhảy dòng hoặc cuộn sai hướng. | Medium | Quan sát | [Issue #1 - Defect log](https://github.com/thangak18/HW01-QAQC-Mouse-Testing/issues/1) |
+| D03 | TC07 | Drag and drop thất bại vì chuột tự nhả item trước khi thả nút. | High | Quan sát | [Issue #1 - Defect log](https://github.com/thangak18/HW01-QAQC-Mouse-Testing/issues/1) |
+| D04 | TC09 | Con trỏ không ổn định trên bề mặt phổ biến như giấy hoặc gỗ. | Low/Medium | Quan sát | [Issue #1 - Defect log](https://github.com/thangak18/HW01-QAQC-Mouse-Testing/issues/1) |
+| D05 | TC11 | Chuột không được nhận lại sau khi rút/cắm lại dây USB hoặc receiver. | High | Quan sát | [Issue #1 - Defect log](https://github.com/thangak18/HW01-QAQC-Mouse-Testing/issues/1) |
 
-Ghi chú: Đây là template để log defect thật. Nếu trong quá trình test không phát hiện defect, giữ link issue trống và ghi rõ không tìm thấy defect ở các test case đã thực thi. GitHub issue trạng thái defect log: https://github.com/thangak18/HW01-QAQC-Mouse-Testing/issues/1.
+Do 5 test case đã quay chưa phát hiện defect thật, các dòng D01-D05 hiện trỏ về Issue #1 để ghi nhận trạng thái defect log/tổng hợp. Nếu sau này phát hiện defect thật, tạo GitHub Issue riêng cho defect đó, thay link Issue #1 bằng link issue riêng tương ứng và cập nhật issue trạng thái ở trên.
 
 ### 3.6 Test case do AI tạo và edge case sinh viên bổ sung
 
@@ -1887,10 +1889,10 @@ Lý do:
 Script:
 
 - Đây là TC03 - Left click.
-- Expected result là hệ thống phản hồi đúng khi em click trái vào folder này.
+- Kết quả mong đợi là hệ thống phản hồi đúng khi em click trái vào folder này.
 - Em sẽ click trái vào folder.
-- Actual result là folder đã được chọn/mở đúng cách.
-- Verdict: Pass.
+- Kết quả thực tế là folder đã được chọn/mở đúng cách.
+- Kết luận: Pass.
 
 ### 3.8 Checklist đáp ứng yêu cầu 3
 
@@ -1913,11 +1915,11 @@ Yêu cầu này kiểm thử một chuột máy tính thật bằng 15 test case
 
 AI hữu ích trong bài này như một trợ lý tạo bản nháp, đặc biệt khi tổ chức thông tin thị trường việc làm, tóm tắt defect công khai và đề xuất test case ban đầu cho chuột máy tính. Tuy nhiên, output của AI vẫn có nhiều điểm sai, thiên lệch hoặc chưa hoàn chỉnh. Ở phần thị trường việc làm, AI có thể diễn giải quá mức ý nghĩa của job title hoặc xem automation và AI evaluation là cùng một nhóm kỹ năng, trong khi mỗi tin tuyển dụng yêu cầu mức testing, scripting, domain knowledge và communication khác nhau. Ở phần defect, AI có thể bịa nguyên nhân gốc, phóng đại phạm vi ảnh hưởng hoặc biến một sự cố phức tạp thành câu chuyện một nguyên nhân. Ở phần kiểm thử sản phẩm vật lý, AI thường tạo các case sử dụng bình thường như kết nối, di chuyển, click trái, click phải và cuộn, nhưng dễ bỏ sót điều kiện thực tế như nhiều bề mặt, click liên tục, rút/cắm lại khi đang dùng, pin yếu hoặc giới hạn khoảng cách không dây. AI không bắt được các thiếu sót này vì nó dựa trên mẫu phổ biến trong dữ liệu huấn luyện, không trực tiếp quan sát thiết bị, không tự xác minh nguồn và thường ưu tiên câu trả lời mạch lạc hơn bằng chứng. Bài học chính là phải dùng AI như một trợ lý junior: cho cấu trúc và ý tưởng nhanh, nhưng tester con người phải kiểm chứng link, đối chiếu evidence, bổ sung edge cases và chịu trách nhiệm cho kết luận cuối cùng.
 
-## Mandatory Disclosure - Khai báo bắt buộc
+## Khai báo bắt buộc về sử dụng AI
 
-Một số phần của report, bao gồm cấu trúc requirement, bản nháp test cases, bảng defect/source link, checklist nộp bài và cách tổ chức nội dung ban đầu, được tạo hoặc hỗ trợ ban đầu bởi OpenAI Codex/ChatGPT. Em đã review và chỉnh sửa các phần tương ứng trong Requirement 1, Requirement 2, Requirement 3 và AI Collaboration Protocol; em bổ sung edge cases TC09, TC10, TC11, TC12, TC13 và TC14; em kiểm tra lại các link nguồn defect; em thay bằng chứng placeholder bằng screenshot việc làm, ảnh thiết bị và link video thật khi có. Phần test execution/video, ảnh thiết bị kèm thẻ sinh viên, screenshot job thật, prompt timestamp thật và các nhận xét/correction cuối cùng được kiểm chứng hoặc thực hiện bởi em. AI Audit Report chi tiết được đính kèm trong `AI_02_Audit_Report.md`. Em xác nhận không dùng AI để tạo bất kỳ artifact nào thuộc nhóm bị cấm, bao gồm ảnh thiết bị với thẻ sinh viên, video thực thi bằng giọng nói/thiết bị thật, screenshot job có tài khoản của em hoặc timestamp prompt log thật.
+Một số phần của report, bao gồm cấu trúc requirement, bản nháp test cases, bảng defect/source link, checklist nộp bài và cách tổ chức nội dung ban đầu, được tạo hoặc hỗ trợ ban đầu bởi OpenAI Codex/ChatGPT. Em đã review và chỉnh sửa các phần tương ứng trong Requirement 1, Requirement 2, Requirement 3 và AI Collaboration Protocol; em bổ sung edge cases TC09, TC10, TC11, TC12, TC13 và TC14; em kiểm tra lại các link nguồn defect; em thay bằng chứng placeholder bằng screenshot việc làm, ảnh thiết bị và link video thật khi có. Phần test execution/video, ảnh thiết bị kèm thẻ sinh viên, screenshot job thật, prompt timestamp thật và các nhận xét/correction cuối cùng được kiểm chứng hoặc thực hiện bởi em. Báo cáo kiểm toán AI chi tiết được đính kèm trong `AI_02_Audit_Report.md`. Em xác nhận không dùng AI để tạo bất kỳ artifact nào thuộc nhóm bị cấm, bao gồm ảnh thiết bị với thẻ sinh viên, video thực thi bằng giọng nói/thiết bị thật, screenshot job có tài khoản của em hoặc timestamp prompt log thật.
 
-## Anti-AI-Cheat Mechanisms - Các bằng chứng không được AI tạo
+## Cơ chế chống gian lận AI - Các bằng chứng không được AI tạo
 
 | Artifact bắt buộc không được AI tạo | Bằng chứng trong thư mục | Trạng thái kiểm tra |
 | --- | --- | --- |
@@ -1930,7 +1932,7 @@ Bằng chứng GitHub Issues có username:
 
 ![GitHub Issues screenshot](github_issues_screenshot.png)
 
-## Tóm tắt AI Audit Report
+## Tóm tắt báo cáo kiểm toán AI
 
 | Artifact | Prompt/công cụ | Kết luận | Phần sinh viên đã sửa |
 | --- | --- | --- | --- |
@@ -1948,7 +1950,7 @@ Tỉ lệ chính xác AI tạm tính: Hợp lệ 50%, chưa hoàn chỉnh 50%, k
 | 1 | Job Market 2026+ (10 jobs x 3 pts + AI Impact) | 40 | 40 |
 | 2 | Software Defects 2022-2026 (20 defects) | 20 | 20 |
 | 3 | Physical-product test design (15 TCs + 5 videos) | 25 | 25 |
-| AI-1 | [AI-02] AI Audit Report (5-section) attached | 8 | 8 |
-| AI-2 | AI Critique 200-300 words + [AI-03] Disclosure attached | 4 | 4 |
+| AI-1 | [AI-02] Báo cáo kiểm toán AI 5 mục đã đính kèm | 8 | 8 |
+| AI-2 | Phê bình AI 200-300 từ + [AI-03] khai báo đã đính kèm | 4 | 4 |
 | AI-3 | [AI-05] Checklist signed + anti-cheat artifacts | 3 | 3 |
 | Total |  | 100 | 100 |

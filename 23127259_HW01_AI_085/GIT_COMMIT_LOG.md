@@ -1,24 +1,25 @@
-# Git Commit Log - HW01
+# Nhật ký commit Git - HW01
 
-Repository: https://github.com/thangak18/HW01-QAQC-Mouse-Testing
+Kho GitHub: https://github.com/thangak18/HW01-QAQC-Mouse-Testing
 
-Live commit history: https://github.com/thangak18/HW01-QAQC-Mouse-Testing/commits/main
+Lịch sử commit trực tuyến: https://github.com/thangak18/HW01-QAQC-Mouse-Testing/commits/main
 
-Generated on: 03/06/2026
+Ngày tạo: 03/06/2026
 
-## Local commit snapshot
+## Ảnh chụp lịch sử commit cục bộ
 
 ```text
-826c931 (HEAD -> main, origin/main) Restructure submission package for final zip layout
+2931d3e (HEAD -> main, origin/main) Update prompt log and Vietnamese wording
+826c931 Restructure submission package for final zip layout
 2051229 Complete public submission evidence checklist
 42fb00c Add GitHub repo and issue status links
 fa3f387 Prepare HW01 submission package
 ```
 
-Latest local update prepared after this snapshot: updated Appendix A prompt log for 02/06/2026-03/06/2026 conversations, changed Vietnamese pronoun wording to the "em" style across text files, and regenerated matching PDFs. The final pushed commit for this update is visible in the live commit history link above.
+Cập nhật cục bộ mới nhất sau ảnh chụp này: đã đồng bộ mỗi file Markdown với một file PDF cùng tên, tạo lại Markdown cho AI-03/AI-05 và Việt hóa các file còn thiên tiếng Anh. Commit cuối cùng đã push có thể xem trực tiếp ở link lịch sử commit phía trên.
 
-## Notes
+## Ghi chú
 
-- The repository is public for submission review.
-- The package contains Markdown report files, PDF report, AI Audit artifacts, prompt log, evidence screenshots, video evidence links, and the self-assessment table.
-- Newer commits after this snapshot can be checked directly on the GitHub commit history page above.
+- Repository đang để public để giảng viên/TA có thể kiểm tra bài nộp.
+- Bộ hồ sơ có file báo cáo Markdown, báo cáo PDF, AI Audit, prompt log, ảnh bằng chứng, link video và bảng tự chấm điểm.
+- Các commit mới hơn ảnh chụp này có thể kiểm tra trực tiếp trên trang lịch sử commit GitHub ở trên.

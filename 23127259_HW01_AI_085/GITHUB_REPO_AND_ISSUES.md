@@ -1,11 +1,11 @@
-# GitHub repo link và GitHub Issues cho HW01
+# Link GitHub repo và GitHub Issues cho HW01
 
 ## Trạng thái hiện tại
 
 - GitHub repo link thật: `https://github.com/thangak18/HW01-QAQC-Mouse-Testing`
 - GitHub issue trạng thái defect log: `https://github.com/thangak18/HW01-QAQC-Mouse-Testing/issues/1`
 - Screenshot trang Issues có GitHub username: `github_issues_screenshot.png`
-- Ghi chú: `gh` trên máy hiện chưa đăng nhập hợp lệ, nên cần tạo repo/issues trực tiếp trên GitHub bằng tài khoản của sinh viên hoặc đăng nhập lại GitHub CLI.
+- Repo đang để chế độ public để giảng viên/TA có thể truy cập khi chấm bài.
 
 ## Yêu cầu từ đề HW01
 
@@ -14,154 +14,154 @@
 ## Cách làm nhanh
 
 1. Repo đã được chuẩn bị với tên `HW01-QAQC-Mouse-Testing`.
-2. Upload/push toàn bộ thư mục `HW01_SUBMISSION_PACKAGE` lên repo.
+2. Upload/push toàn bộ thư mục `23127259_HW01_AI_085` lên repo.
 3. Issue trạng thái defect log đã được tạo tại `issues/1`.
 4. Vào tab `Issues` của repo và tạo issue riêng cho các defect thật tìm được khi test.
 5. Chụp screenshot trang Issues có thấy GitHub username, lưu thành `github_issues_screenshot.png`.
 6. Cập nhật link từng issue vào bảng `3.5 Liên kết defect tiềm năng với GitHub Issue` trong `HW01_Main_Report.md`.
 
-## Issue templates nếu phát hiện defect
+## Mẫu GitHub Issue nếu phát hiện defect
 
-### D01 - Pointer lag or abnormal jump
+### D01 - Con trỏ bị trễ hoặc nhảy bất thường
 
-Title:
+Tiêu đề:
 
 ```text
-D01 - Pointer lag or abnormal jump during normal movement
+D01 - Con trỏ bị trễ hoặc nhảy bất thường khi di chuyển bình thường
 ```
 
-Body:
+Nội dung:
 
 ```text
-Related test case: TC02 - Di chuyển con trỏ chuột
-Severity: Medium
+Test case liên quan: TC02 - Di chuyển con trỏ chuột
+Mức độ nghiêm trọng: Medium
 
-Description:
-When moving the physical mouse under normal desk-surface conditions, the pointer appears delayed, jumps unexpectedly, or does not follow the mouse movement smoothly.
+Mô tả:
+Khi di chuyển chuột vật lý trên bề mặt bàn thông thường, con trỏ bị trễ, nhảy bất thường hoặc không đi theo chuyển động của chuột một cách mượt mà.
 
-Expected result:
-The pointer should move smoothly in the same direction as the physical mouse movement.
+Kết quả mong đợi:
+Con trỏ phải di chuyển mượt và cùng hướng với chuyển động của chuột vật lý.
 
-Actual result:
+Kết quả thực tế:
 [Điền kết quả quan sát thật nếu defect xảy ra]
 
-Evidence:
+Bằng chứng:
 [Dán link video/screenshot nếu có]
 
-Environment:
-- Device: computer mouse
-- Surface: [mouse pad / desk / paper / other]
-- Computer/OS: [điền nếu cần]
+Môi trường:
+- Thiết bị: chuột máy tính
+- Bề mặt: [lót chuột / bàn / giấy / bề mặt khác]
+- Máy tính/Hệ điều hành: [điền nếu cần]
 ```
 
-### D02 - Scroll wheel skips lines or scrolls in wrong direction
+### D02 - Bánh xe cuộn bị nhảy dòng hoặc cuộn sai hướng
 
-Title:
+Tiêu đề:
 
 ```text
-D02 - Scroll wheel skips lines or scrolls in wrong direction
+D02 - Bánh xe cuộn bị nhảy dòng hoặc cuộn sai hướng
 ```
 
-Body:
+Nội dung:
 
 ```text
-Related test case: TC05 - Cuộn chuột lên/xuống
-Severity: Medium
+Test case liên quan: TC05 - Cuộn chuột lên/xuống
+Mức độ nghiêm trọng: Medium
 
-Description:
-The scroll wheel does not scroll consistently. It may skip lines, scroll too far, or scroll in the wrong direction.
+Mô tả:
+Bánh xe cuộn hoạt động không ổn định, có thể bỏ qua dòng, cuộn quá xa hoặc cuộn sai hướng.
 
-Expected result:
-The page/list should scroll smoothly according to the wheel direction.
+Kết quả mong đợi:
+Trang hoặc danh sách phải cuộn mượt theo đúng hướng xoay của bánh xe.
 
-Actual result:
+Kết quả thực tế:
 [Điền kết quả quan sát thật nếu defect xảy ra]
 
-Evidence:
-[Dán link video/screenshot nếu có]
-```
-
-### D03 - Drag and drop releases item before button is released
-
-Title:
-
-```text
-D03 - Drag and drop fails because item is released unexpectedly
-```
-
-Body:
-
-```text
-Related test case: TC07 - Drag and drop file/icon
-Severity: High
-
-Description:
-During drag and drop, the selected file/icon is released before the mouse button is intentionally released.
-
-Expected result:
-The item should stay selected while the left button is held and should drop only when the user releases the button.
-
-Actual result:
-[Điền kết quả quan sát thật nếu defect xảy ra]
-
-Evidence:
+Bằng chứng:
 [Dán link video/screenshot nếu có]
 ```
 
-### D04 - Pointer unstable on common surfaces
+### D03 - Drag and drop bị nhả item trước khi thả nút
 
-Title:
+Tiêu đề:
 
 ```text
-D04 - Pointer becomes unstable on common surface
+D03 - Drag and drop thất bại vì item bị nhả ngoài ý muốn
 ```
 
-Body:
+Nội dung:
 
 ```text
-Related test case: TC09 - Kiểm tra trên nhiều bề mặt
-Severity: Low/Medium
+Test case liên quan: TC07 - Drag and drop file/icon
+Mức độ nghiêm trọng: High
 
-Description:
-The pointer becomes unstable or inaccurate when the mouse is used on a common surface such as paper, wood, fabric, or a glossy surface.
+Mô tả:
+Trong lúc drag and drop, file/icon đang được chọn bị nhả ra trước khi người dùng chủ động thả nút chuột.
 
-Expected result:
-The mouse should remain usable on normal everyday surfaces, or the limitation should be clearly documented.
+Kết quả mong đợi:
+Item phải tiếp tục được giữ khi người dùng giữ nút trái chuột và chỉ được thả khi người dùng nhả nút.
 
-Actual result:
+Kết quả thực tế:
 [Điền kết quả quan sát thật nếu defect xảy ra]
 
-Evidence:
+Bằng chứng:
 [Dán link video/screenshot nếu có]
 ```
 
-### D05 - Mouse is not recognized after unplug/replug
+### D04 - Con trỏ không ổn định trên bề mặt thông dụng
 
-Title:
+Tiêu đề:
 
 ```text
-D05 - Mouse is not recognized after USB unplug/replug
+D04 - Con trỏ không ổn định trên bề mặt thông dụng
 ```
 
-Body:
+Nội dung:
 
 ```text
-Related test case: TC11 - Rút/cắm lại chuột khi đang sử dụng
-Severity: High
+Test case liên quan: TC09 - Kiểm tra trên nhiều bề mặt
+Mức độ nghiêm trọng: Low/Medium
 
-Description:
-After unplugging and reconnecting the mouse or receiver while the system is running, the mouse is not recognized again.
+Mô tả:
+Con trỏ trở nên không ổn định hoặc thiếu chính xác khi chuột được dùng trên bề mặt thông dụng như giấy, gỗ, vải hoặc bề mặt bóng.
 
-Expected result:
-The system should detect the mouse again and the pointer should become usable without requiring a restart.
+Kết quả mong đợi:
+Chuột phải vẫn dùng được trên các bề mặt thường gặp hằng ngày, hoặc giới hạn sử dụng phải được ghi rõ.
 
-Actual result:
+Kết quả thực tế:
 [Điền kết quả quan sát thật nếu defect xảy ra]
 
-Evidence:
+Bằng chứng:
+[Dán link video/screenshot nếu có]
+```
+
+### D05 - Chuột không được nhận lại sau khi rút/cắm lại
+
+Tiêu đề:
+
+```text
+D05 - Chuột không được nhận lại sau khi rút/cắm lại USB hoặc receiver
+```
+
+Nội dung:
+
+```text
+Test case liên quan: TC11 - Rút/cắm lại chuột khi đang sử dụng
+Mức độ nghiêm trọng: High
+
+Mô tả:
+Sau khi rút và cắm lại chuột hoặc receiver trong lúc hệ thống đang chạy, chuột không được nhận lại.
+
+Kết quả mong đợi:
+Hệ thống phải nhận lại chuột và con trỏ phải dùng được mà không cần khởi động lại máy.
+
+Kết quả thực tế:
+[Điền kết quả quan sát thật nếu defect xảy ra]
+
+Bằng chứng:
 [Dán link video/screenshot nếu có]
 ```
 
 ## Nếu không tìm thấy defect thật
 
-Nếu quá trình test không phát hiện defect thật, không nên tạo issue giả. Trong report có thể ghi rõ: "No actual defect was found during the executed TC01-TC05 videos; D01-D05 are issue templates for potential defects." Tuy nhiên đề có ghi nên cố gắng tìm ít nhất 5 defects từ thiết bị, nên nếu có thể, hãy test thêm TC07, TC09, TC10, TC11, TC12 để tìm defect thực tế và log issue thật.
+Nếu quá trình test không phát hiện defect thật, không nên tạo issue giả. Trong report có thể ghi rõ: "Không phát hiện defect thật trong các video TC01-TC05 đã thực thi; D01-D05 là mẫu issue cho defect tiềm năng." Tuy nhiên đề có ghi nên cố gắng tìm ít nhất 5 defects từ thiết bị, nên nếu có thể, hãy test thêm TC07, TC09, TC10, TC11, TC12 để tìm defect thực tế và log issue thật.
