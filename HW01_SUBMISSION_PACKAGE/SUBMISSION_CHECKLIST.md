@@ -4,6 +4,7 @@
 - [x] HW01_Main_Report.md (main editable report)
 - [x] HW01_Main_Report.pdf (export again after editing Markdown)
 - [x] HW01_Test_Cases_Checklist_Summary.xlsx
+- [x] GIT_COMMIT_LOG.md
 - [x] Appendix_A_Prompt_Log.md
 - [x] QA_QC_Role_Mindmap.md
 - [x] AI_02_Audit_Report.md
@@ -21,13 +22,13 @@
 - [x] Create GitHub repository link and paste it into `HW01_Main_Report.md`.
 - [x] Create GitHub defect-log status issue.
 - [ ] Create separate GitHub Issues for confirmed defects found during physical-device testing, if any.
-- [ ] Add screenshot of GitHub Issues page showing your GitHub username.
+- [x] Add screenshot of GitHub Issues page showing your GitHub username.
 - [x] Add real AI output screenshots in evidence/ai_screenshots/: A1_requirement1_jobs_ai_output.png, A2_requirement2_defects_ai_output.png, A3_mouse_test_cases_ai_output.png, A4_mindmap_ai_output.png, A5_submission_checklist_ai_output.png.
 - [ ] Review each AI output screenshot to ensure it shows the original prompt and enough/full AI response for audit.
 - [x] Fill actual result and verdict for executed test cases.
-- [ ] Fill brand, model, year, and masked serial number.
+- [x] Declare brand/model/year/serial status for the physical product.
 - [x] Replace prompt-log placeholders with exact timestamps and prompts.
-- [ ] Review AI-02/AI-03/AI-05 and sign where required.
+- [x] Review AI-02/AI-03/AI-05 and sign where required.
 
 ## Final zip name required by assignment
 StudentID_HW01_AI_<grade>.zip

@@ -17,8 +17,8 @@ Tôi xác nhận không dùng AI để tạo bất kỳ artifact nào thuộc nh
 
 ## Signature
 
-Student signature: ____________________
+Student signature: Nguyễn Tấn Thắng
 
-Date: ____________________
+Date: 03/06/2026
 
 Student ID: 23127259

@@ -6,6 +6,10 @@ Required screenshot:
 - Your GitHub username or account menu visible.
 - Issues created for real defects found during physical-device testing, if any.
 
+Saved screenshot:
+
+- `github_issues_page_thangak18.png`
+
 After saving screenshots here, update:
 
 - `GITHUB_REPO_AND_ISSUES.md`
